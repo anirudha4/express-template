@@ -5,9 +5,11 @@ router.get('/', (req, res) => res.status(200).json({
     working: true
 }));
 
-// app routes
+// user routes
 router.use('/users', require('./users'));
 
+// get random number application
+router.use('/random', require('./random'))
 // router.use('/admin', require('./admin'));
 
 module.exports = router;

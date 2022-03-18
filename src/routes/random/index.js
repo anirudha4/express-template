@@ -1,11 +1,9 @@
-const { getUsers } = require('controllers/users');
+const { getRandomNumber } = require('controllers/random');
 
- 
 // requires
 const router = require('express').Router();
 
 // routes
-
-router.get('/', getUsers)
+router.get('/', getRandomNumber)
 
 module.exports = router;
