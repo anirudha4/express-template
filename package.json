@@ -1,0 +1,43 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": " Express Template with best practices, Folder Structure and needed tools. ",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudha4/express-template.git"
+  },
+  "keywords": [
+    "express",
+    "template",
+    "express",
+    "template",
+    "nodejs",
+    "best",
+    "practices"
+  ],
+  "author": "Anirudha Gandhare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudha4/express-template/issues"
+  },
+  "homepage": "https://github.com/anirudha4/express-template#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.2.7",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
