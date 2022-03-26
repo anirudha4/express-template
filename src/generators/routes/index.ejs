@@ -1,0 +1,13 @@
+const { get<%- api %>s, create<%- api %>, update<%- api %>, delete<%- api %>  } = require('controllers/<%- apis %>');
+ 
+// requires
+const router = require('express').Router();
+
+// routes
+
+router.get('/', get<%- api %>s)
+router.post('/', create<%- api %>)
+router.put('/:id', update<%- api %>)
+router.delete('/:id', delete<%- api %>) 
+
+module.exports = router;

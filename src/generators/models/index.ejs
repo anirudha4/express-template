@@ -1,0 +1,18 @@
+// requires
+const mongoose = require('mongoose');
+
+// <%- startCaseApi %> Schema 
+const <%- startCaseApi %>Schema = mongoose.Schema({
+     /*
+     add attributes for this model
+
+     name: {
+         type: String,
+         required: true
+     },
+     */
+})
+// create model
+const <%- startCaseApi %> = mongoose.model('<%- api %>', <%- startCaseApi %>Schema);
+
+module.exports = <%- startCaseApi %> ;

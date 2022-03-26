@@ -8,7 +8,8 @@ moduleAlias.addAliases({
   'controllers': `${__dirname}/controllers`,
   'models': `${__dirname}/models`,
   'utils': `${__dirname}/utils`,
-  'routes': `${__dirname}/routes`
+  'routes': `${__dirname}/routes`,
+  'generators': `${__dirname}/generators`,
 });
 
 // core nodejs modules

@@ -10,6 +10,6 @@ router.use('/users', require('./users'));
 
 // get random number application
 router.use('/random', require('./random'))
-// router.use('/admin', require('./admin'));
+router.use('/todos', require('./todos'));
 
 module.exports = router;
