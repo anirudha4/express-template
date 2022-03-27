@@ -6,6 +6,11 @@ Express Template with best practices, Folder Structure and needed tools.
 ```
   yarn generate
 ```
+or
+```
+  npm run generate
+```
+
 
 - enter the name of the API
 - choose if you want to create a model file for the same
