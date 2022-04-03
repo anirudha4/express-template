@@ -5,6 +5,7 @@ const fs = require('fs')
 require('colors');
 const {  CONTROLLER, MODEL, ROUTE } = require('../utils/generators');
 
+
 q.prompt([
     {
         type: 'input',
@@ -36,7 +37,6 @@ q.prompt([
     if (!fs.existsSync(`${CONTROLLER}/${api}`)) {
         fs.mkdirSync(`${CONTROLLER}/${api}`);
         fs.writeFileSync(`${CONTROLLER}/${api}/index.js`, renderedController);
-        
     } else {
         console.log("Folder with same resource name already exists");
     }
